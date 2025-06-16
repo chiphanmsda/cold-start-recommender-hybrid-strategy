@@ -1,18 +1,7 @@
-# 🎯 Hybrid Cold-Start Recommender System
+INSTRUCTION:
 
-This project proposes a hybrid active learning approach to address the cold-start problem using error-based heuristics (Y-change + Error-change). The model is built on matrix factorization (SVD) and tested on implicit user-product interaction data.
+Open the Google Colab Note on Google Colab and Run.
 
-## 🔍 Key Features
-- Hybrid scoring strategy balances informativeness and error reduction
-- Reproduced PopGini, random, Y-change, and Error-change baselines
-- Binary rating dataset (De Bijenkorf, 70K interactions)
-- Metric-driven evaluation using RMSE and Jaccard Index
+The original dataset was too big to uploade, so I uploaded the sample dataset I used in the project instead. You may need to change the first few lines of the code to add this dataset.
 
-## 🧪 Tools & Technologies
-- Python, Surprise library (SVD)
-- NumPy, Pandas
-- Matplotlib for RMSE/accuracy plots
-
-## 📊 Highlights
-- Hybrid strategy outperformed random and PopGini in RMSE
-- Demonstrated model drift resilience and early-item robustness
+The original dataset is from https://github.com/rmlaanen/RS-error-based-learning .
